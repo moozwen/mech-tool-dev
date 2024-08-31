@@ -1,0 +1,14 @@
+name: mixture_of_agents_request
+author: moozwen
+version: 0.1.0
+type: custom
+description: A tool that runs a request prompt against mixture of agents.
+license: Apache-2.0
+aea_version: '>=1.0.0, <2.0.0'
+fingerprint:
+  __init__.py: bafybeibbn67pnrrm4qm3n3kbelvbs3v7fjlrjniywmw2vbizarippidtvi
+  mixture_of_agent_request.py: bafybeihpzb5ozd52zokwyohgq5hzsha43lykqtghjwplpl4udnwkibqopy
+fingerprint_ignore_patterns: []
+entry_point: mixture_of_agent_request.py
+callable: run
+dependencies: {}

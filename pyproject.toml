@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "mech-tool-dev"
+version = "0.1.0"
+description = ""
+authors = ["moozwen <moozwen.tech@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+pydantic = "^2.8.2"
+langchain-groq = "^0.1.9"
+langchain = "^0.2.15"
+langchain-openai = "^0.1.23"
+langchain-core = "^0.2.37"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
